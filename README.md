@@ -10,4 +10,5 @@
 Мой пример: путь %localappdata%\Google\Chrome\User Data\Profile 1\Extensions
 
 Как это выглядит:
+
 ![image](https://user-images.githubusercontent.com/77111442/185811397-5c04a1b3-e08d-4e04-a9dc-9af0f2674af4.png)
