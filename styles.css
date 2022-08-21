@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+
+    font-family: Tahoma;
+}
+
+body{
+    width: 200px;
+}
+
+#loginName{
+    border-radius: 5px;
+    background: rgb(249, 250, 250);
+    border: 1px solid rgb(181, 189, 196);
+    font-size: 16px;
+    height: 40px;
+    line-height: 24px;
+    padding: 7px 8px;
+    color: rgb(8, 9, 10);
+    box-shadow: none;
+}
+
+#loginName:focus{
+    background-color: #fff;
+    border-color: #3b49df;
+    box-shadow: 1px 1px 0 #3b49df;
+}
+
+#loginBtn{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+}
+
+#logOut{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border: 1px solid #FCD200;
+    font-size: 13px;
+    height: 31px;
+    padding: 0 11px;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    font-weight: 500;
+    color: #0F1111;    
+}
+
+#logOut:hover{
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+#auth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+#nickname{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#points{
+    font-size: 1rem;
+    font-weight: bold;
+}
